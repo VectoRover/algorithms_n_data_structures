@@ -51,7 +51,6 @@ def timed(f, *args, n_iter=100):
         t1 = time.perf_counter()
         cache.clear()
         acc = min(acc, t1 - t0)
-    #print(f'{acc * 10000} сек.')
     return acc
 
 
