@@ -68,7 +68,9 @@ def work_timer(fs, args):
     plt.show()
 
 
-work_timer([fib, fib2, fib3, fib4], list(range(500)))
+#work_timer([fib, fib2, fib3, fib4], list(range(500)))
+
+print(fib3(3))
 
 
 
